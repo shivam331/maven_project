@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.qait.automation.maven_one.AppTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.qait.automation.maven_one.AppTest">
+        <methods>
+          <include name="dungeon"/>
+          <include name="windows"/>
+          <include name="afterTest"/>
+          <include name="homepage"/>
+          <include name="grid_gate"/>
+          <include name="drag"/>
+          <include name="cookie"/>
+          <include name="beforeTest"/>
+          <include name="openApp"/>
+        </methods>
+      </class> <!-- com.qait.automation.maven_one.AppTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.qait.automation.maven_one.AppTest] -->

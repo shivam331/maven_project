@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.qait.automation.maven_one.AppTest" duration-ms="10470" started-at="2018-06-25T08:07:56Z" finished-at="2018-06-25T08:08:07Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="10470" started-at="2018-06-25T08:07:56Z" finished-at="2018-06-25T08:08:07Z">
+      <class name="com.qait.automation.maven_one.AppTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.qait.automation.maven_one.AppTest@26ba2a48]" name="beforeTest" is-config="true" duration-ms="6815" started-at="2018-06-25T13:37:56Z" finished-at="2018-06-25T13:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.qait.automation.maven_one.AppTest@26ba2a48]" name="openApp" duration-ms="333" started-at="2018-06-25T13:38:03Z" finished-at="2018-06-25T13:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="homepage()[pri:0, instance:com.qait.automation.maven_one.AppTest@26ba2a48]" name="homepage" duration-ms="188" started-at="2018-06-25T13:38:03Z" depends-on-methods="com.qait.automation.maven_one.AppTest.openApp" finished-at="2018-06-25T13:38:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method status="PASS" signature="grid_gate()[pri:0, instance:com.qait.automation.maven_one.AppTest@26ba2a48]" name="grid_gate" duration-ms="238" started-at="2018-06-25T13:38:03Z" depends-on-methods="com.qait.automation.maven_one.AppTest.homepage" finished-at="2018-06-25T13:38:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid_gate -->
+        <test-method status="PASS" signature="dungeon()[pri:0, instance:com.qait.automation.maven_one.AppTest@26ba2a48]" name="dungeon" duration-ms="888" started-at="2018-06-25T13:38:04Z" depends-on-methods="com.qait.automation.maven_one.AppTest.grid_gate" finished-at="2018-06-25T13:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dungeon -->
+        <test-method status="PASS" signature="drag()[pri:0, instance:com.qait.automation.maven_one.AppTest@26ba2a48]" name="drag" duration-ms="273" started-at="2018-06-25T13:38:05Z" depends-on-methods="com.qait.automation.maven_one.AppTest.dungeon" finished-at="2018-06-25T13:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drag -->
+        <test-method status="PASS" signature="windows()[pri:0, instance:com.qait.automation.maven_one.AppTest@26ba2a48]" name="windows" duration-ms="1473" started-at="2018-06-25T13:38:05Z" depends-on-methods="com.qait.automation.maven_one.AppTest.drag" finished-at="2018-06-25T13:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windows -->
+        <test-method status="PASS" signature="cookie()[pri:0, instance:com.qait.automation.maven_one.AppTest@26ba2a48]" name="cookie" duration-ms="247" started-at="2018-06-25T13:38:06Z" depends-on-methods="com.qait.automation.maven_one.AppTest.windows" finished-at="2018-06-25T13:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookie -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qait.automation.maven_one.AppTest@26ba2a48]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-06-25T13:38:07Z" finished-at="2018-06-25T13:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qait.automation.maven_one.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.qait.automation.maven_one.AppTest -->
+</testng-results>
